@@ -6,7 +6,7 @@ export function HeadLine(props) {
 
     return (
         <div>
-            <p className={styles.p}>{props.title}</p>
+            <p className={styles.port}>{props.title}</p>
             <p>{props.children}</p>
         </div>
     );
